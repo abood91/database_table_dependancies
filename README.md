@@ -18,6 +18,20 @@ npm install
 npx ts-node app.ts
 ```
 
+### Usde Different Data:
+
+Either modify database.json file in the data directory or in app.ts import the new data fail:
+
+```typescript
+import JSON_DATA from 'lpath_to_json_file.json';
+```
+and then pass the data object to the function:
+
+```typescript
+topological_sort(JSON_DATA);
+```
+
+
 ### Testing: 
 
 ```sh
