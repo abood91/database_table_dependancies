@@ -1,0 +1,27 @@
+{
+  "name": "database_table_dependancies",
+  "version": "1.0.0",
+  "description": "Abdulla's - Willa's challenge submission",
+  "main": "index.ts",
+  "dependencies": {
+    "eslint": "^7.32.0"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.10.2",
+    "chai": "^4.3.4",
+    "cross-env": "^7.0.3",
+    "mocha": "^9.1.2",
+    "nyc": "^15.1.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "test": "cross-env TS_NODE_FILES=true mocha --exit --require ts-node/register --colors test/**/*.ts",
+    "coverage": "nyc npm run test"
+  },
+  "author": "Abdulla Ibrahim",
+  "license": "MIT"
+}

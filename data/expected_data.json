@@ -1,0 +1,8 @@
+[
+    "users",
+    "clients",
+    "audit_log",
+    "payment_request",
+    "invoices",
+    "line_items"
+]
