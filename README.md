@@ -18,9 +18,9 @@ npm install
 npx ts-node app.ts
 ```
 
-### Usde Different Data:
+### Use Different Data:
 
-Either modify database.json file in the data directory or in app.ts import the new data fail:
+Either modify database.json file in the data directory or import the new data file in app.ts:
 
 ```typescript
 import JSON_DATA from 'lpath_to_json_file.json';
